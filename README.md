@@ -15,3 +15,17 @@ This Python script uses Selenium and BeautifulSoup to scrape cafe information fr
 2. Install required libraries using pip:
    ```bash
    pip install selenium beautifulsoup4 pandas
+
+## Usage 
+
+1. Update the city variable in the script to the desired city (e.g., "ahmedabad").
+2. Run the script using the command:
+   bash
+   ```bash
+   python zomato_scraper.py
+3. The script will start scraping the cafe information and save it to a CSV file named zomato_ahmedabad.csv.
+
+## Note
+
+1. Adjust the scrolling speed (time.sleep(2)) based on your network speed and content loading speed.
+2. Modify the script as needed for other cities or categories on Zomato.
